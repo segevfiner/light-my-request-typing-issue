@@ -1,0 +1,32 @@
+{
+  "name": "light-my-request-typing-issue",
+  "version": "0.1.0",
+  "description": "MWE of Light my Request typing issue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segevfiner/light-my-request-typing-issue.git"
+  },
+  "keywords": [
+    "mwe"
+  ],
+  "author": "Segev Finer <segev208@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/segevfiner/light-my-request-typing-issue/issues"
+  },
+  "homepage": "https://github.com/segevfiner/light-my-request-typing-issue#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^16.11.43",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "light-my-request": "^5.0.0"
+  }
+}
